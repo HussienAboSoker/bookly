@@ -5,9 +5,9 @@ class SplashViewBody extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Column(
+    return  Column(
       children: [
-        Text("splash view body"),
+        Image.asset("assets/images/logo.png"),
       ],
     );
   }
